@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "node src/patch.js",
-    "build:ghpage": "ng build --prod --base-href 'https://aaronhma.github.io/tfjs-digit-classifier'",
+    "build:ghpage": "ng build --prod --base-href 'https://aaronhma.github.io/tfjs-digit-classifier/'",
     "deploy": "npm run build:ghpage && npx angular-cli-ghpages --dir=dist/tfjs-digit-classifier"
   },
   "private": true,
