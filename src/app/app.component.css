@@ -1,0 +1,38 @@
+header, footer {
+  display: block;
+}
+
+header img {
+  display: block;
+  width: 500px;
+  margin: 30px auto;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.draw-container, .prediction-container {
+  float: left;
+}
+
+.draw-container {
+  width: 40%;
+  margin-right: 2%;
+}
+
+.prediction-container {
+  width: 58%;
+}
+
+.draw-container canvas {
+  display: block;
+  margin: 0 0 12px;
+  padding: 0;
+  border: 1px solid rgb(51, 51, 51);
+}
+
+.draw-container button {
+  margin-right: 12px;
+}
